@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "npm run watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch ./css/*.scss -o css",
+    "scss": "node-sass --recursive --watch ./css/ --output ./css/",
     "watch": "npm run scss"
   },
   "repository": {
