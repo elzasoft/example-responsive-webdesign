@@ -1,0 +1,29 @@
+{
+  "name": "example-php-responsive-webdesign",
+  "version": "1.0.0",
+  "description": "CRUD operations in PHP",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "npm run watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch ./css/*.scss -o css",
+    "watch": "npm run scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elzasoft/example-php-responsive-webdesign.git"
+  },
+  "author": "Jan Elznic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elzasoft/example-php-responsive-webdesign/issues"
+  },
+  "homepage": "https://github.com/elzasoft/example-php-responsive-webdesign#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.4"
+  }
+}
