@@ -1,0 +1,43 @@
+$size-header-logo: 140px;
+
+.container {
+  width: $breakpoint-desktop;
+  background: pink;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+header .logo {
+  display: block;
+  float: left;
+  width: 40%;
+  height: $size-header-logo;
+  background: red;
+}
+
+header .logo img.logo-image {
+  width: $size-header-logo;
+  height: $size-header-logo;
+}
+
+header nav.main-nav ul.main-nav-links {
+  width: 60%;
+  height: $size-header-logo;
+  float: right;
+  background: yellow;
+}
+
+header nav.main-nav ul.main-nav-links li {
+  display: inline-block;
+  font-size: 150%;
+}
+
+header nav.main-nav ul.main-nav-links li a {
+  display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+header nav.main-nav ul.main-nav-links li a:hover {
+  text-decoration: underline;
+}

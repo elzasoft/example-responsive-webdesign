@@ -2,3 +2,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+header {
+  background-color: $color-grey-light;
+}
+
+header nav.main-nav ul.main-nav-links {
+  list-style: none;
+}

@@ -1,4 +1,11 @@
 @import 'vars';
+@import 'reset';
 @import 'common';
-@import 'desktop';
-@import 'mobile';
+
+@media only screen and (max-width: $breakpoint-mobile) {
+  @import 'mobile';
+}
+
+@media only screen and (min-width: $breakpoint-mobile + 1px) {
+  @import 'desktop';
+}
