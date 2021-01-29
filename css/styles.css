@@ -21,6 +21,9 @@ header .logo a {
 header nav.main-nav ul.main-nav-links {
   list-style: none; }
 
+main {
+  overflow: auto; }
+
 @media only screen and (max-width: 768px) {
   .container {
     max-width: 100%;
@@ -36,7 +39,9 @@ header nav.main-nav ul.main-nav-links {
     text-align: center; }
   header nav.main-nav ul.main-nav-links a {
     display: block;
-    padding: 10px; } }
+    padding: 10px; }
+  aside.sidebar {
+    display: none; } }
 
 @media only screen and (min-width: 769px) {
   .container {
@@ -63,4 +68,16 @@ header nav.main-nav ul.main-nav-links {
     padding: 20px 30px;
     text-decoration: none; }
   header nav.main-nav ul.main-nav-links li a:hover {
-    text-decoration: underline; } }
+    text-decoration: underline; }
+  section.content {
+    float: left;
+    padding-right: 80px;
+    width: calc(70% - 80px); }
+  aside.sidebar {
+    float: right;
+    padding: 0 50px;
+    width: calc(30% - 100px);
+    background: #b4b4b4; }
+  footer {
+    margin: 20px 0;
+    clear: both; } }

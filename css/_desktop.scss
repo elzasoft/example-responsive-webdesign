@@ -38,3 +38,21 @@ header nav.main-nav ul.main-nav-links li a {
 header nav.main-nav ul.main-nav-links li a:hover {
   text-decoration: underline;
 }
+
+section.content {
+  float: left;
+  padding-right: 80px;
+  width: calc(70% - 80px);
+}
+
+aside.sidebar {
+  float: right;
+  padding: 0 50px;
+  width: calc(30% - 100px);
+  background: $color-grey-regular;
+}
+
+footer {
+  margin: 20px 0;
+  clear: both;
+}
