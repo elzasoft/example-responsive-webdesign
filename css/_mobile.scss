@@ -1,3 +1,28 @@
+$size-header-logo: 80px;
+
+.container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+header {
+  padding: 20px 0;
+}
+
 header .logo {
-  
+  text-align: center;
+}
+
+header .logo img.logo-image {
+  width: $size-header-logo;
+  height: $size-header-logo;
+}
+
+header nav.main-nav ul.main-nav-links {
+  text-align: center;
+}
+
+header nav.main-nav ul.main-nav-links a {
+  display: block;
+  padding: 10px;
 }

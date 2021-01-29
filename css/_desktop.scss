@@ -2,7 +2,6 @@ $size-header-logo: 140px;
 
 .container {
   width: $breakpoint-desktop;
-  background: pink;
   overflow: auto;
   margin: 0 auto;
 }
@@ -12,7 +11,6 @@ header .logo {
   float: left;
   width: 40%;
   height: $size-header-logo;
-  background: red;
 }
 
 header .logo img.logo-image {
@@ -24,7 +22,6 @@ header nav.main-nav ul.main-nav-links {
   width: 60%;
   height: $size-header-logo;
   float: right;
-  background: yellow;
 }
 
 header nav.main-nav ul.main-nav-links li {

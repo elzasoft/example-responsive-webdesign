@@ -4,6 +4,11 @@ body {
 
 header {
   background-color: $color-grey-light;
+  overflow: auto;
+}
+
+header .logo a {
+  display: block;
 }
 
 header nav.main-nav ul.main-nav-links {
